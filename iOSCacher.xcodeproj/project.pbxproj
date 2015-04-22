@@ -17,9 +17,9 @@
 		41D255901ABAC2E500F9C650 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D2558E1ABAC2E500F9C650 /* LaunchScreen.xib */; };
 		41D2559C1ABAC2E500F9C650 /* iOSCacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2559B1ABAC2E500F9C650 /* iOSCacherTests.m */; };
 		41D255A81ABAC34000F9C650 /* iOSCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D255A71ABAC34000F9C650 /* iOSCacher.m */; };
-		41E260791AD7693C007AC297 /* iOSEntryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E260781AD7693C007AC297 /* iOSEntryObject.m */; };
-		41E2607C1AD76A01007AC297 /* iOSEntryCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2607B1AD76A01007AC297 /* iOSEntryCoding.m */; };
-		41E2607F1AD7702B007AC297 /* iOSCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2607E1AD7702B007AC297 /* iOSCacheEntry.m */; };
+		41FC32441AE79E6900D3ECFE /* iOSCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FC323E1AE79E6900D3ECFE /* iOSCacheEntry.m */; };
+		41FC32451AE79E6900D3ECFE /* iOSEntryCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FC32411AE79E6900D3ECFE /* iOSEntryCoding.m */; };
+		41FC32461AE79E6900D3ECFE /* iOSEntryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FC32431AE79E6900D3ECFE /* iOSEntryObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +52,13 @@
 		41D2559B1ABAC2E500F9C650 /* iOSCacherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCacherTests.m; sourceTree = "<group>"; };
 		41D255A61ABAC34000F9C650 /* iOSCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCacher.h; path = iOSCacher/iOSCacher.h; sourceTree = "<group>"; };
 		41D255A71ABAC34000F9C650 /* iOSCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCacher.m; path = iOSCacher/iOSCacher.m; sourceTree = "<group>"; };
-		41E260761AD768A9007AC297 /* iOSCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCacheProtocol.h; sourceTree = "<group>"; };
-		41E260771AD7693C007AC297 /* iOSEntryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSEntryObject.h; sourceTree = "<group>"; };
-		41E260781AD7693C007AC297 /* iOSEntryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSEntryObject.m; sourceTree = "<group>"; };
-		41E2607A1AD76A01007AC297 /* iOSEntryCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSEntryCoding.h; sourceTree = "<group>"; };
-		41E2607B1AD76A01007AC297 /* iOSEntryCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSEntryCoding.m; sourceTree = "<group>"; };
-		41E2607D1AD7702B007AC297 /* iOSCacheEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCacheEntry.h; sourceTree = "<group>"; };
-		41E2607E1AD7702B007AC297 /* iOSCacheEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCacheEntry.m; sourceTree = "<group>"; };
+		41FC323D1AE79E6900D3ECFE /* iOSCacheEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCacheEntry.h; path = iOSCacher/iOSCacheEntry.h; sourceTree = "<group>"; };
+		41FC323E1AE79E6900D3ECFE /* iOSCacheEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCacheEntry.m; path = iOSCacher/iOSCacheEntry.m; sourceTree = "<group>"; };
+		41FC323F1AE79E6900D3ECFE /* iOSCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCacheProtocol.h; path = iOSCacher/iOSCacheProtocol.h; sourceTree = "<group>"; };
+		41FC32401AE79E6900D3ECFE /* iOSEntryCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSEntryCoding.h; path = iOSCacher/iOSEntryCoding.h; sourceTree = "<group>"; };
+		41FC32411AE79E6900D3ECFE /* iOSEntryCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSEntryCoding.m; path = iOSCacher/iOSEntryCoding.m; sourceTree = "<group>"; };
+		41FC32421AE79E6900D3ECFE /* iOSEntryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSEntryObject.h; path = iOSCacher/iOSEntryObject.h; sourceTree = "<group>"; };
+		41FC32431AE79E6900D3ECFE /* iOSEntryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSEntryObject.m; path = iOSCacher/iOSEntryObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,15 +146,15 @@
 		41D255A51ABAC31000F9C650 /* iOSCacher */ = {
 			isa = PBXGroup;
 			children = (
+				41FC323D1AE79E6900D3ECFE /* iOSCacheEntry.h */,
+				41FC323E1AE79E6900D3ECFE /* iOSCacheEntry.m */,
+				41FC323F1AE79E6900D3ECFE /* iOSCacheProtocol.h */,
+				41FC32401AE79E6900D3ECFE /* iOSEntryCoding.h */,
+				41FC32411AE79E6900D3ECFE /* iOSEntryCoding.m */,
+				41FC32421AE79E6900D3ECFE /* iOSEntryObject.h */,
+				41FC32431AE79E6900D3ECFE /* iOSEntryObject.m */,
 				41D255A61ABAC34000F9C650 /* iOSCacher.h */,
 				41D255A71ABAC34000F9C650 /* iOSCacher.m */,
-				41E260761AD768A9007AC297 /* iOSCacheProtocol.h */,
-				41E260771AD7693C007AC297 /* iOSEntryObject.h */,
-				41E260781AD7693C007AC297 /* iOSEntryObject.m */,
-				41E2607A1AD76A01007AC297 /* iOSEntryCoding.h */,
-				41E2607B1AD76A01007AC297 /* iOSEntryCoding.m */,
-				41E2607D1AD7702B007AC297 /* iOSCacheEntry.h */,
-				41E2607E1AD7702B007AC297 /* iOSCacheEntry.m */,
 			);
 			name = iOSCacher;
 			sourceTree = "<group>";
@@ -260,13 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D255881ABAC2E500F9C650 /* ViewController.m in Sources */,
+				41FC32441AE79E6900D3ECFE /* iOSCacheEntry.m in Sources */,
 				41D255851ABAC2E500F9C650 /* AppDelegate.m in Sources */,
 				41D255821ABAC2E500F9C650 /* main.m in Sources */,
-				41E2607C1AD76A01007AC297 /* iOSEntryCoding.m in Sources */,
-				41E2607F1AD7702B007AC297 /* iOSCacheEntry.m in Sources */,
-				41E260791AD7693C007AC297 /* iOSEntryObject.m in Sources */,
+				41FC32451AE79E6900D3ECFE /* iOSEntryCoding.m in Sources */,
 				41409EB01AD6837400E2DD2D /* Base.m in Sources */,
 				41D255A81ABAC34000F9C650 /* iOSCacher.m in Sources */,
+				41FC32461AE79E6900D3ECFE /* iOSEntryObject.m in Sources */,
 				41409EB31AD683BB00E2DD2D /* Child.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
